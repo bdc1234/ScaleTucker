@@ -1,0 +1,20 @@
+# OS / editor
+.DS_Store
+.vscode/
+
+# Internal working notes (not part of the release)
+.claude/
+CLAUDE.md
+
+# Runtime intermediate files
+out/
+*.bin
+
+# ScaleTucker source code — withheld until the paper is accepted
+# (prebuilt binaries are provided instead; see README.md)
+include/
+source/
+main.cpp
+lib/
+Makefile
+*.o
